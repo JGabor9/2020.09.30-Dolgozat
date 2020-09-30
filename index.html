@@ -6,10 +6,41 @@
     <title>Főoldal</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="pics/dogfavicon.png">
+    <style>
+        .wrapper {
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 0 77px;
+        }
+        .left-link,
+        .right-link {
+            position: fixed;
+            top: 43vh;
+            font-size: 5em;
+            color: black;
+        }
+        .left-link a,.right-link a {
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+        }
+        .left-link a:hover,.right-link a:hover {
+            text-decoration: none;
+            padding: 20px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        .left-link {
+            left: 0;
+        }
+
+        .right-link {
+            right: 0
+        }
+    </style>
 </head>
 <body>
-    <h1>Kutya fajták Főoldal</h1>
     <div class="wrapper">
+        <header>Kutyák Főoldal</header>
         <nav class="clearfix">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,5 +49,7 @@
             </ul>
         </nav>
     </div>
+    <div class="left-link"><a href="pages/amstaff.html">&#10094;</a></div>
+    <div class="right-link"><a href="pages/pitbull.html">&#10095;</a></div>
 </body>
 </html>

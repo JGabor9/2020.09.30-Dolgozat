@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: grey;
+    background: lightblue;
     background-size: cover;
 }
 *{
@@ -22,6 +22,7 @@ main p{
 img{
     height: 50%;
     width: 50%;
+    border: 2px solid black;
 }
 header{
     background: url("../pics/dogbackground.jpg")repeat center;
